@@ -1,0 +1,42 @@
+body {
+    font-family: 'Pretendard', sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.navbar {
+    transition: all 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: #fff !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.text-primary {
+    color: #3d6ce3 !important;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.emoji {
+    line-height: 1;
+}
