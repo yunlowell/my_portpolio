@@ -40,3 +40,49 @@ section {
 .emoji {
     line-height: 1;
 }
+/* 💡 Hero Section */
+.github-btn-no-border {
+    color: #24292e;
+    margin: 8px;
+    font-size: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.velog-img-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: transparent;
+    border: none;
+    transform: translateY(6px); 
+}
+
+.velog-icon {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* 📝 Blog Section */
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px; 
+}
+
+.blog-card .truncate {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
